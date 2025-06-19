@@ -8,11 +8,11 @@ public class BGMManager : MonoBehaviour
     {
         if (instance != null)
         {
-            Destroy(gameObject); // Prevent duplicates
+            Destroy(gameObject); 
             return;
         }
 
         instance = this;
-        DontDestroyOnLoad(gameObject); // Persist through scene loads
+        DontDestroyOnLoad(gameObject); 
     }
 }

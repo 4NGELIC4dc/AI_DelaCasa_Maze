@@ -11,7 +11,6 @@ public class ChestTrigger : MonoBehaviour
 
     void Start()
     {
-        // Force start from the idle clip to stop Unity from auto-playing last edited
         if (chestAnimator != null)
         {
             chestAnimator.Play("chest_idle", 0, 0f);

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MazeAI : MonoBehaviour
 {
-    public Transform target;             // The TreasureChest
+    public Transform target;             
     public float moveSpeed = 2.5f;
     public float castDistance = 0.6f;
     public float detectionRadius = 0.4f;
@@ -69,7 +69,7 @@ public class MazeAI : MonoBehaviour
         if (count > 0)
         {
             var hitObj = hits[0].collider.gameObject;
-            if (hitObj.CompareTag("Goal")) return false; // Don't treat chest as obstacle
+            if (hitObj.CompareTag("Goal")) return false; // Do not treat chest as obstacle
 
             Debug.DrawRay(rb.position, direction * castDistance, Color.red);
             return true;

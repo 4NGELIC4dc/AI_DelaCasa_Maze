@@ -5,7 +5,7 @@ public class RetryHandler : MonoBehaviour
 {
     public void RetryGame()
     {
-        // Destroy BGM manually before reload so it restarts fresh
+        // Destroy BGM
         GameObject bgm = GameObject.Find("BGMPlayer");
         if (bgm != null)
             Destroy(bgm);
