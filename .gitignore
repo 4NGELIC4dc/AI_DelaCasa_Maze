@@ -1,0 +1,52 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+
+# Visual Studio / JetBrains
+.vs/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+
+# OS generated
+.DS_Store
+*.swp
+*.tmp
+
+# Crash and debug
+*.pidb
+*.booproj
+
+# Unity cloud build
+.cloud/
+
+# Auto-generated
+*.apk
+*.aab
+*.exe
+
+# TextMesh Pro
+TextMesh Pro/Fonts/Editor.txt
+
+# Rider
+.idea/
+
+# Collaborate
+.collab/
+
+# Cache
+Assets/AssetStoreTools*
+
+# PlasticSCM
+.plastic/
+ignore.conf
